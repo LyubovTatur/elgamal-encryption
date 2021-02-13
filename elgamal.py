@@ -39,10 +39,10 @@ def egDec(p, x, c1, c2):
 if __name__ == "__main__":
 	
 	message = 12345678
-	print "Message: ", message
+	print ("Message: ", message)
 	p,a,x,y = egKey(24)
-	print p,a,x,y
+	print (p,a,x,y)
 	c1, c2 = egEnc(p, a, y, message)
 	message = egDec(p, x, c1, c2)
-	print "Decrypted: " ,  message
+	print ("Decrypted: " ,  message)
 

@@ -10,8 +10,8 @@ such that pair(d) will return (p,a) containing a safe prime p with
 d bits and a generator a for Z∗p.
 
 """
-import Crypto.Util.number as num
-import random
+import crypto.util.number as num
+import randomel
 
 def pair(s):
 	safe_prime = 0
